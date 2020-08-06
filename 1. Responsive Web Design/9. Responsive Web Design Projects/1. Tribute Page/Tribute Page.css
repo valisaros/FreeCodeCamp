@@ -1,0 +1,116 @@
+html {
+    /* Setting a base font size of 10px give us easier rem calculations
+     Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
+   */
+    font-size: 10px;
+}
+
+body {
+    /* Native font stack https://getbootstrap.com/docs/4.2/content/reboot/#native-font-stack */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    color: rgb(39, 40, 41);
+    margin: 0;
+  }
+
+h1 {
+    font-size: 5rem;
+    margin-bottom: 3rem;
+    line-height: 1.3;
+    color: #13222e;
+}
+
+@media (max-width: 460px) {
+    h1 {
+        font-size: 4rem;
+        line-height: 1;
+    }
+}
+
+p {
+    margin-bottom: 4rem;
+}
+
+#main {
+    margin: 15px 7px;
+    padding: 15px;
+    border-radius: 5px;
+    background: #eceef1;
+  }
+
+img {
+    max-width: 50%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+#img-div {
+    background: white;
+    padding: 20px;
+    margin: 0;
+}
+
+@media (max-width: 70rem) {
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+#img-caption {
+    margin-top: 2rem;
+}
+
+#headline {
+    margin-bottom: 5rem;
+}
+
+#heading {
+    font-size: 3rem;
+    margin-top: 7rem;
+    margin-bottom: 3rem;
+    color: #252c32;
+}
+
+#intro {
+    text-align: center;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+@media (max-width: 50rem) {
+    #intro {
+        text-align: center;
+        margin: 0;
+    }
+}
+
+#subheading {
+    font-size: 2.5rem;
+    margin-top: 8rem;
+    margin-bottom: 4rem;
+    color: #252c33;
+}
+
+a {
+    color: #566168;
+}
+
+ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+}
+  
+li {
+    margin: 16px 0;
+}
+
+#credits {
+    color: #798f8c;
+    font-size: 12px;
+}
